@@ -76,7 +76,7 @@ button:hover {
     position: absolute;
 }
 .header-section {
-    background-image: url(/architecture-2804083_1280-1024x576.jpg);
+    background-image: url(img/architecture-2804083_1280-1024x576.jpg);
    padding-bottom: 50px;
     background-size: cover;
     background-position: center;
@@ -322,6 +322,18 @@ button:hover {
 
 .terms {
     margin-left: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .footer {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
